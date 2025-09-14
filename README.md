@@ -13,3 +13,6 @@ An Open-Source Self-Hosted Scrabble Word Finder<br />
 <br />
 You can find word dictionaries at: https://boardgames.stackexchange.com/questions/38366/latest-collins-scrabble-words-list-in-text-file
 <img width="1920" height="910" alt="image" src="https://github.com/user-attachments/assets/d72c71c9-d0ae-41b1-8235-10f8ef577551" />
+<br />
+<br />
+HASBRO, its logo, and SCRABBLE® are trademarks of Hasbro in the U.S. and Canada. All content copyright its respective owners.
