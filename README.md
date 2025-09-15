@@ -5,10 +5,12 @@ An Open-Source Self-Hosted Scrabble Word Finder<br />
 3. cd to scrabblewordfinder directory that contains index.html
 4. Download a wordlist.txt of your chosing to the above directory
 5. Run fix-dictionaries.py with the wordlist.txt if needed
-6. Edit scrabble_word_finder.php in a text editor and change the line that says $WORDLIST_FILE = __DIR__ . "/CSW24_modified.txt";
-7. Run php -S 0.0.0.0:80
-8. Open browser to localhost:80/scrabble_word_finder.php to generate scrabbleAnagrams.sqlite
-9. Navigate to localhost:80 to use the word finder.
+6. Choose either scrabble_word_finder.php for sqlite or scrabble_word_finder_sql.php for mysql 8+
+7. Rename scrabble_word_finder_sql.php to scrabble_word_finder.php if using sql mode.
+8. Edit scrabble_word_finder.php in a text editor and change the line that says $WORDLIST_FILE = __DIR__ . "/CSW24_modified.txt";
+9. Run php -S 0.0.0.0:80
+10. Open browser to localhost:80/scrabble_word_finder.php to generate scrabbleAnagrams.sqlite or scrabbleDB
+11. Navigate to localhost:80 to use the word finder.
 <br />
 <br />
 You can find word dictionaries at: https://boardgames.stackexchange.com/questions/38366/latest-collins-scrabble-words-list-in-text-file
