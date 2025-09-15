@@ -15,4 +15,5 @@ You can find word dictionaries at: https://boardgames.stackexchange.com/question
 <img width="1920" height="910" alt="image" src="https://github.com/user-attachments/assets/d72c71c9-d0ae-41b1-8235-10f8ef577551" />
 <br />
 <br />
+Edit to mention: if you want to easily keep track of Scrabble scores, use Microsoft Excel or Google Sheets and type =SUM(A:A) to sum a whole column of scores or =SUM(A2:A) to ignore headers for names.<br />
 HASBRO, its logo, and SCRABBLE® are trademarks of Hasbro in the U.S. and Canada. All content copyright its respective owners.
