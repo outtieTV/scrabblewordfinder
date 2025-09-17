@@ -15,7 +15,7 @@ On Windows/Mac/Linux:
 11. Navigate to localhost:80 to use the word finder.
 <br />
 <br />
-ScrabbleWordFinder on Termux on Android:
+ScrabbleWordFinder on Termux on Android:<br />
 1. Download F-Droid
 2. Download Termux through F-Droid
 3. Open Termux
