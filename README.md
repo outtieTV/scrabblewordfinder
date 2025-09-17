@@ -28,7 +28,7 @@ ScrabbleWordFinder on Termux on Android:<br />
 12. $ wget https://github.com/outtieTV/scrabblewordfinder/archive/refs/heads/main.zip<br />
 13. $ unzip main.zip<br />
 14. $ chmod -R a+wx scrabblewordfinder-main<br />
-15. $ cd scrabblewordfinder<br />
+15. $ cd scrabblewordfinder-main<br />
 16. $ ifconfig -a<br />
 17. $ termux-wake-lock<br />
 18. $ php -S 0.0.0.0:8000<br />
