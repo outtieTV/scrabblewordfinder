@@ -16,22 +16,22 @@ On Windows/Mac/Linux:
 <br />
 <br />
 ScrabbleWordFinder on Termux on Android:<br />
-1. Download F-Droid
-2. Download Termux through F-Droid
-3. Open Termux
-4. $ termux-setup-storage
-5. $ termux-change-repo
-6. $ pkg update && pkg upgrade
-7. $ pkg install php sqlite
-8. $ pkg install wget
-9. $ cd ~
-12. $ wget https://github.com/outtieTV/scrabblewordfinder/archive/refs/heads/main.zip
-13. $ unzip main.zip
-14. $ chmod -R a+wx scrabblewordfinder-main
-15. $ cd scrabblewordfinder
-16. $ ifconfig -a
-17. $ termux-wake-lock
-18. $ php -S 0.0.0.0:8000
+1. Download F-Droid<br />
+2. Download Termux through F-Droid<br />
+3. Open Termux<br />
+4. $ termux-setup-storage<br />
+5. $ termux-change-repo<br />
+6. $ pkg update && pkg upgrade<br />
+7. $ pkg install php sqlite<br />
+8. $ pkg install wget<br />
+9. $ cd ~<br />
+12. $ wget https://github.com/outtieTV/scrabblewordfinder/archive/refs/heads/main.zip<br />
+13. $ unzip main.zip<br />
+14. $ chmod -R a+wx scrabblewordfinder-main<br />
+15. $ cd scrabblewordfinder<br />
+16. $ ifconfig -a<br />
+17. $ termux-wake-lock<br />
+18. $ php -S 0.0.0.0:8000<br />
 <br /><br />
 You can find word dictionaries at: https://boardgames.stackexchange.com/questions/38366/latest-collins-scrabble-words-list-in-text-file
 <img width="1920" height="910" alt="image" src="https://github.com/user-attachments/assets/d72c71c9-d0ae-41b1-8235-10f8ef577551" />
