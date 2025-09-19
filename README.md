@@ -32,6 +32,9 @@ ScrabbleWordFinder on Termux on Android:<br />
 16. $ ifconfig -a<br />
 17. $ termux-wake-lock<br />
 18. $ php -S 0.0.0.0:8000<br />
+19. To make it as a termux-service:<br />
+  $ mkdir -p $PREFIX/var/service/wordfinder/log && printf '%s\n' '#!/bin/sh' 'cd /data/data/com.termux/files/home/scrabblewordfinder-main || exit 1' 'export PATH="$PATH:$PREFIX/bin"' 'exec php -S 0.0.0.0:8000' > $PREFIX/var/service/wordfinder/run && printf '%s\n' '#!/bin/sh' 'exec svlogd -tt .' > $PREFIX/var/service/wordfinder/log/run && chmod +x $PREFIX/var/service/wordfinder/run $PREFIX/var/service/wordfinder/log/run<br />
+20. Same thing as the command in step 18: sv-enable wordfinder && sv start wordfinder<br />
 <br /><br />
 You can find word dictionaries at: https://boardgames.stackexchange.com/questions/38366/latest-collins-scrabble-words-list-in-text-file
 <img width="1920" height="910" alt="image" src="https://github.com/user-attachments/assets/d72c71c9-d0ae-41b1-8235-10f8ef577551" />
